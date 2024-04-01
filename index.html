@@ -1,456 +1,288 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Seminário Online sobre ADS (Análise e Desenvolvimento de Sistemas)
-    </title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminário Online sobre ADS (Análise e Desenvolvimento de Sistemas).</title>
 
-    <link rel="stylesheet" href="./src/css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+
+    <div class="borda-horizontal-top"></div>
+
     <header>
-      <nav class="navigation">
-        <div class="logo">
-          <a href="#" class="link-logo"><i>ADS Site.</i></a>
+        <div class="div-flex">
+            <h1 class="logo"><span><i>ADS Site.</i></span></h1>
+            <nav>
+                <ul class="list-link">
+                    <li><a href="#" class="link">Início</a></li>
+                    <li><a href="#" class="link">Sobre o Curso</a></li>
+                    <li><a href="#" class="link">Áreas de Atuação</a></li>
+                    <li><a href="#" class="link">Locais do Curso</a></li>
+                    <li><a href="#" class="link">Salários e Preços</a></li>
+                    <li><a href="#" class="link">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="div-user">
+                <img src="./src/img/account.png" alt="User">
+                <a href="#" class="link-user">Log In</a>
+            </div>
         </div>
-        <ul class="list-link">
-          <li class="item-link"><a href="#" class="link">Home</a></li>
-          <li class="item-link">
-            <a href="#sobre" class="link borda">About the coursem</a>
-          </li>
-          <li class="item-link">
-            <a href="#" class="link borda">Areas of expertise</a>
-          </li>
-          <li class="item-link">
-            <a href="#" class="link borda">Course Locations</a>
-          </li>
-          <li class="item-link">
-            <a href="#" class="link borda">Salaries and Prices</a>
-          </li>
-          <li class="item-link"><a href="#" class="link borda">Contact</a></li>
-        </ul>
-        <div class="login">
-          <img src="./src/img/account.png" alt="User" />
-          <a href="#" class="link">Log In</a>
-        </div>
-      </nav>
     </header>
 
-    <main>
-      <!-- Titulo Da Página -->
-      <section class="section1">
-        <h1 class="h1">
-          <span
-            >Welcome to the course<br />Analysis and systems development.</span
-          >
-        </h1>
-        <p class="p">
-          <span
-            >Here you will find general information about the course, its
-            possible areas of activity,<br />
-            places where it is offered and the salary and price of the
-            course.</span
-          >
-        </p>
-        <a href="#" class="link-section"><span>Learn More</span></a>
-      </section>
+    <div class="borda-horizontal-bottom"></div>
 
-      <!-- Parallax -->
-      <section class="section2">
+    <section>
+        <div class="div-section-titulo">
+            <h1 class="titulo-principal"><span>Bem-vindo ao curso de<br>Análise e Desenvolvimento de Sistemas.</span></h1>
+            <p class="sub-titulo-principal"><span>Aqui você encontrará informações gerais sobre o curso, suas possíveis áreas de atuação,<br> locais onde é oferecido o curso e os valores de salário e preço do curso.</span></p>
+            <button class="link-titulo-principal">Saiba mais</button>
+        </div>
+    </section>
+
+    <div class="borda-horizontal"></div>
+    
+    <section class="div-parallax">
         <div class="parallax"></div>
-      </section>
+    </section>
+    
+    <div class="borda-horizontal"></div>
 
-      <!-- Primeira Seção de Conteúdo -->
-      <section class="section3" id="sobre">
-        <div class="div-section3">
-          <img
-            src="https://www.spurtcommerce.com/img/index-img/coding-on-laptop@3x.jpg"
-            alt="Imagem Sobre o curso de ADS"
-            class="img-section3"
-          />
+    <section>
+        <div class="div-flex-ads">
+            <div class="img-ads"></div>
+            <div class="borda-vertical"></div>
+            <div class="conteudo-ads">
+                <h1 class="titulo-principal-ads">Sobre o <br>Curso de ADS.</h1>
+                <p class="text-principal-ads">
+                    O curso de Análise e Desenvolvimento de Sistemas capacita os estudantes a compreender, projetar, desenvolver e implementar sistemas de software de maneira eficiente.
+                </p>
+                <p class="text-principal-ads">
+                    Nessa Faculdade são abordados conteúdos de tecnologia e áreas sociais relacionadas para formar bons profissionais. Nesse segmento, o profissional de ADS atua nos bastidores de um software, proporcionando a integração/sincronização entre o banco de dados, a camada front-end e o servidor.
+                </p>
+                <p class="text-principal-ads">
+                    A formação em análise e desenvolvimento de sistemas serve como base para que o profissional possa se capacitar e atuar em outras áreas ligadas a Tecnologia da Informação, como segurança da Informação, Análise de Dados (Big Data), Inteligência Artificial, Criptomoeda, dentre outras.
+                </p>
+                <button class="link-titulo-principal">Saiba mais</button>
+            </div>
         </div>
-        <div class="borda-section3"></div>
-        <div class="information-section3">
-          <h1 class="h1-section3">
-            <span>Sobre o <br />Curso de ADS.</span>
-          </h1>
-          <p class="p-section3">
-            <span
-              >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Reiciendis aliquid facere ducimus rerum, molestias sequi
-              voluptatum odio voluptate optio iure consequatur maiores culpa
-              laborum illo rem deleniti vitae quis a.</span
-            >
-          </p>
-          <a href="#" class="link-section"><span>Learn More</span></a>
-        </div>
-      </section>
+    </section>
 
-      <!-- Segunda Seção de Conteúdo -->
-      <section class="section4">
-        <div class="d-sec4-cont-geral">
-          <div>
-            <h1 class="h1-s4"><span>Areas of expertise</span></h1>
-          </div>
-          <div class="d-sec4-cont">
-            <div class="b-sec4">
-              <h2 class="h2-t1-s4"><span>Software development</span></h2>
-              <p class="p1-s4 sumir">
-                <span>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nobis, quam, velit ut, tempore voluptatibus tenetur
-                  perspiciatis quia maxime unde dolore perferendis facilis
-                  asperiores non nesciunt eveniet alias nihil odio sequi?
-                </span>
-              </p>
-            </div>
-            <div class="b-sec4">
-              <h2 class="h2-t1-s4"><span>System analysis</span></h2>
-              <p class="p1-s4 sumir">
-                <span>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nobis, quam, velit ut, tempore voluptatibus tenetur
-                  perspiciatis quia maxime unde dolore perferendis facilis
-                  asperiores non nesciunt eveniet alias nihil odio sequi?
-                </span>
-              </p>
-            </div>
-            <div class="b-sec4">
-              <h2 class="h2-t1-s4"><span>Web and Mobile Development</span></h2>
-              <p class="p1-s4 sumir">
-                <span>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nobis, quam, velit ut, tempore voluptatibus tenetur
-                  perspiciatis quia maxime unde dolore perferendis facilis
-                  asperiores non nesciunt eveniet alias nihil odio sequi?
-                </span>
-              </p>
-            </div>
-            <div class="b-sec4">
-              <h2 class="h2-t1-s4"><span>IT Project Management</span></h2>
-              <p class="p1-s4 sumir">
-                <span>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Nobis, quam, velit ut, tempore voluptatibus tenetur
-                  perspiciatis quia maxime unde dolore perferendis facilis
-                  asperiores non nesciunt eveniet alias nihil odio sequi?
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class="a1-s4">
-            <a href="#" class="link-section"><span>Learn More</span></a>
-          </div>
-        </div>
-        <div class="d-sec4-img">
-          <img src="https://external-preview.redd.it/-aYQ7O5w_rtZ8XaF2ek1K97rTDiPuwYc72wLz-etqc4.jpg?auto=webp&s=ded4f210dd6cb8b7e8742dec3e4830c6ba0d1a43" alt="Imagem sobre as Areas de Atuação" class="img-s4"/>
-        </div>
-      </section>
+    <div class="borda-horizontal"></div>
 
-      <!-- Terceira Seção de Conteúdo -->
-      <section>
-        <div>
-          <div class="d-tit-s5">
-            <h1 class="h1-s5">
-              <span>PLACES WHERE THE COURSE IS OFFERED</span>
-            </h1>
-          </div>
-          <div class="b2-sec5">
-            <div class="card-sec5">
-              <img
-                src="https://umfg.edu.br/wp-content/themes/facec/assets/img/logo-amarela.png"
-                alt="Imagem da Faculdade UFMG"
-                class="img-card"
-              />
-              <div class="preco-desconto">
-                <p class="p1-pd-s5"><span>R$ 983,78</span></p>
-                <p class="p2-pd-s5"><span>R$ 787,02</span></p>
-              </div>
-              <div class="inf-geral">
-                <div class="d1-inf-sec5">
-                  <p><span>Modalidade</span></p>
-                  <p><span>Período</span></p>
-                  <p><span>Duração</span></p>
-                  <p><span>Carga Horária</span></p>
+    <section>
+        <div class="div-flex-area">
+            <div class="conteudo-area">
+                <h1 class="titulo-area">Áreas de Atuação</h1>
+                <div class="conteudo-especifico-area">
+                    <div class="cont-web">
+                        <h1 class="sub-titulo-area">Desevolvimento de Software</h1>
+                        <div class="paragrafo-area p-sumir">
+                            <p>Desenvolvimento de softwares é a atividade de criar programas de computação, executada por um desenvolvedor ou grupo de desenvolvedores.</p>
+                            <p>O Ciclo de Desenvolvimento de Software é um modelo composto por sete fases: Análise de Requisitos, Estudo de Viabilidade, Design, Codificação, Teste, Instalação.</p>
+                            <p>Deploy(consiste no processo de colocar no ar uma aplicação já concluída.) e Manutenção. Cada fase serve para orientar e proporcionar flexibilidade para adaptar e executar o projeto de acordo com o objetivo do cliente.</p>
+                        </div>
+                    </div>
+                    <div class="cont-web">
+                        <h1 class="sub-titulo-area">Análise de Sistema</h1>
+                        <div class="paragrafo-area p-sumir">
+                            <p>A Análise de Sistemas desempenha um papel fundamental no mercado de tecnologia, sendo uma área de extrema importância para garantir o desenvolvimento e o bom funcionamento de sistemas e softwares.</p>
+                            <p>Análise de sistemas  se concentra na compreensão e resolução de problemas em sistemas de informação. Envolve a análise de requisitos, modelagem, projeto e implementação de soluções tecnológicas</p>
+                        </div>
+                    </div>
+                    <div class="cont-web">
+                        <h1 class="sub-titulo-area">Desenvolvimento Web e Mobile</h1>
+                        <div class="paragrafo-area p-sumir">
+                            <p>Os desenvolvedores web e mobile são os profissionais que criam sites e aplicativos utilizando linguagens de programação como JavaScript, Python, HTML, C++, além de coletar dados dos usuários para verificar possíveis melhorias e novas funções.</p>
+                        </div>
+                    </div>
+                    <div class="cont-web">
+                        <h1 class="sub-titulo-area">Gerenciamento de Projeto de TI</h1>
+                        <div class="paragrafo-area p-sumir">
+                            <p>Gerenciamento de projetos de TI visa organizar, programar, executar e monitorar tarefas relacionadas à Tecnologia da Informação. O objetivo é que os projetos da área atendam às necessidades e expectativas da empresa contratante.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="d2-inf-sec5">
-                  <p><span>Presencial</span></p>
-                  <p><span>Noturno</span></p>
-                  <p><span>2,5 anos</span></p>
-                  <p><span>2300h</span></p>
-                </div>
-              </div>
+                <button class="link-titulo-principal">Saiba mais</button>
             </div>
-            <div class="card-sec5 bl-sec5">
-              <img
-                src="https://www.unipar.br/static/img/logos/vertical.a880457ff0d1.svg"
-                alt="Imagem da Faculdade UNIPAR"
-                class="img-card"
-              />
-              <div class="preco-desconto">
-                <p class="p1-pd-s5"><span>R$ 930,67</span></p>
-                <p class="p2-pd-s5"><span>R$ 698,00</span></p>
-              </div>
-              <div class="inf-geral">
-                <div class="d1-inf-sec5">
-                  <p><span>Modalidade</span></p>
-                  <p><span>Período</span></p>
-                  <p><span>Duração</span></p>
-                  <p><span>Carga Horária</span></p>
-                </div>
-                <div class="d2-inf-sec5">
-                  <p><span>Presencial</span></p>
-                  <p><span>Noturno</span></p>
-                  <p><span>2,5 anos</span></p>
-                  <p><span>2000h</span></p>
-                </div>
-              </div>
+            <div class="img-ads-area">
+                <!---
+                <img src="https://afsgroup.com.br/wp-content/uploads/2022/05/002-DESENVOLVIMENTO-DE-SOFTWARES-768x1152.jpg" alt="Desenvolvimento Web" class="img-cont-area img-sumir">
+                <img src="https://www.showmetech.com.br/wp-content/uploads/2020/06/An%C3%A1lise-e-Desenvolvimento-de-Sistemas-scaled.jpg" alt="Análise de Sistema" class="img-cont-area img-sumir">
+                -->
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Quarta Seção de Conteúdo -->
-      <section class="b-sec6">
-        <div class="back-s6">
-          <div>
-            <h1 class="h1-s6"><span>SALARY VALUES</span></h1>
-          </div>
-          <div class="cont-s6">
-            <div>
-              <button class="bnt-s6 ativo">Software development</button>
-              <button class="bnt-s6">System analysis</button>
-              <button class="bnt-s6">Web and Mobile Development</button>
-              <button class="bnt-s6">IT Project Management</button>
-            </div>
-            <div class="abas-cont-s6">
-              <div class="aba-cont-graf-s6 ativo-cont">
-                <div class="faixa-s6">
-                  <h5 class="h5-f-s6">Faixa de salário base</h5>
-                  <h1 class="h1-f-s6">R$ 3 mil - R$ 8 mil <span>/mês</span></h1>
-                </div>
-                <div class="list-graf-s6">
-                  <div class="tower">
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 83.3333%"></div>
-                    <div class="torre" style="height: 66.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 1%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 16.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                  </div>
-                  <div class="inf-graf-s6">
-                    <div class="inf-2k">
-                      <p>R$ 2 mil</p>
-                      <p>Baixa</p>
-                    </div>
-                    <div class="inf-4k">
-                      <p>R$ 14 mil</p>
-                      <p>Alta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="media-graf-s6">
-                  <h5>Média salarial</h5>
-                  <h1>R$ 6.696,00</h1>
-                </div>
-              </div>
-              <div class="aba-cont-graf-s6">
-                <div class="faixa-s6">
-                  <h5 class="h5-f-s6">Faixa de salário base</h5>
-                  <h1 class="h1-f-s6">R$ 4 mil - R$ 8 mil <span>/mês</span></h1>
-                </div>
-                <div class="list-graf-s6">
-                  <div class="tower">
-                    <div class="torre" style="height: 90%"></div>
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 83.3333%"></div>
-                    <div class="torre" style="height: 66.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 1%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 16.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                  </div>
-                  <div class="inf-graf-s6">
-                    <div class="inf-2k">
-                      <p>R$ 2 mil</p>
-                      <p>Baixa</p>
-                    </div>
-                    <div class="inf-4k">
-                      <p>R$ 14 mil</p>
-                      <p>Alta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="media-graf-s6">
-                  <h5>Média salarial</h5>
-                  <h1>R$ 5.500,00</h1>
-                </div>
-              </div>
-              <div class="aba-cont-graf-s6">
-                <div class="faixa-s6">
-                  <h5 class="h5-f-s6">Faixa de salário base</h5>
-                  <h1 class="h1-f-s6">R$ 2 mil - R$ 5 mil <span>/mês</span></h1>
-                </div>
-                <div class="list-graf-s6">
-                  <div class="tower">
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 83.3333%"></div>
-                    <div class="torre" style="height: 66.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 1%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 16.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                  </div>
-                  <div class="inf-graf-s6">
-                    <div class="inf-2k">
-                      <p>R$ 2 mil</p>
-                      <p>Baixa</p>
-                    </div>
-                    <div class="inf-4k">
-                      <p>R$ 14 mil</p>
-                      <p>Alta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="media-graf-s6">
-                  <h5>Média salarial</h5>
-                  <h1>R$ 3.000,00</h1>
-                </div>
-              </div>
-              <div class="aba-cont-graf-s6">
-                <div class="faixa-s6">
-                  <h5 class="h5-f-s6">Faixa de salário base</h5>
-                  <h1 class="h1-f-s6">R$ 3 mil - R$ 9 mil <span>/mês</span></h1>
-                </div>
-                <div class="list-graf-s6">
-                  <div class="tower">
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 100%"></div>
-                    <div class="torre" style="height: 83.3333%"></div>
-                    <div class="torre" style="height: 66.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 1%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                    <div class="torre" style="height: 16.6667%"></div>
-                    <div class="torre" style="height: 33.3333%"></div>
-                  </div>
-                  <div class="inf-graf-s6">
-                    <div class="inf-2k">
-                      <p>R$ 2 mil</p>
-                      <p>Baixa</p>
-                    </div>
-                    <div class="inf-4k">
-                      <p>R$ 14 mil</p>
-                      <p>Alta</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="media-graf-s6">
-                  <h5>Média salarial</h5>
-                  <h1>R$ 19.419,00</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+    <div class="borda-horizontal-top"></div>
 
-    <footer class="b-m-footer">
-      <section class="section7">
-        <div class="div-contudo-footer">
-          <div class="logo-contato">
-            <h1 class="lc-h1"><span>ADS Site</span></h1>
-            <div class="local">
-              <p>500 Terry Francine Street</p>
-              <p>San Francisco, CA 94158</p>
-            </div>
-            <a href="#" class="ancora-footer"><span>info@mysite.com</span></a>
-            <p class="tel"><span>123-456-7890</span></p>
-            <div class="line-footer"></div>
-            <nav>
-              <ul class="list-link-footer">
-                <li class="link-footer"><a href="#">Terms & Conditions</a></li>
-                <li class="link-footer"><a href="#">Privacy Policy</a></li>
-                <li class="link-footer"><a href="#">Refund Policy</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="menu-footer">
-            <h1 class="lc-h1"><span>Menu</span></h1>
-            <nav>
-              <ul class="list-link-footer">
-                <li class="link-footer"><a href="#" class="link-f">Home</a></li>
-                <li class="link-footer">
-                  <a href="#" class="link-f">About the coursem</a>
-                </li>
-                <li class="link-footer">
-                  <a href="#" class="link-f">Areas of expertise</a>
-                </li>
-                <li class="link-footer">
-                  <a href="#" class="link-f">Course Locations</a>
-                </li>
-                <li class="link-footer">
-                  <a href="#" class="link-f">Salaries and Prices</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="media-social-footer">
-            <h1 class="lc-h1"><span>Social</span></h1>
-            <nav>
-              <ul class="list-link-footer">
-                <li class="link-footer"><a href="#">Instagram</a></li>
-                <li class="link-footer"><a href="#">Facebook</a></li>
-                <li class="link-footer"><a href="#">Linkedin</a></li>
-                <li class="link-footer"><a href="#">Git Hub</a></li>
-                <li class="link-footer"><a href="#">Twitter</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="line-footer-vertical"></div>
-          <div class="contato">
-            <h1 class="lc-h1"><span>Get in Touch</span></h1>
-            <div class="contact">
-              <div class="name">
-                <div class="f-name">
-                  <label for="text">First Name *</label>
-                  <input type="text" name="text" id="text" />
+    <div>
+        <h1 class="titulo-faculdade">LOCAIS ONDE SÃO OFERTADOS O CURSO</h1>
+    </div>
+
+    <div class="borda-horizontal-bottom"></div>
+
+    <section>
+        <div class="div-locais">
+            <div class="card-facul">
+                <img src="https://umfg.edu.br/wp-content/themes/facec/assets/img/logo-amarela.png" alt="Imagem da Faculdade UFMG" class="img-facul">
+                <p class="preco-d">R$ 983,78</p>
+                <p class="preco">R$ 787,02</p>
+                <div class="div-card-flex">
+                    <div class="modal">
+                        <p>Modalidade</p>
+                        <p>Período</p>
+                        <p>Duração</p>
+                        <p>Carga Horária</p>
+                    </div>
+                    <div class="modal">
+                        <p>Presencial</p>
+                        <p>Noturno</p>
+                        <p>2,5 anos</p>
+                        <p>2300h</p>
+                    </div>
                 </div>
-                <div class="l-name">
-                  <label for="text1">Last Name *</label>
-                  <input type="text" name="text1" id="text1" />
+            </div>
+            <div class="borda-vertical"></div>
+            <div class="card-facul">
+                <img src="https://www.unipar.br/static/img/logos/vertical.a880457ff0d1.svg" alt="Imagem da Faculdade UNIPAR" class="img-facul">
+                <p class="preco-d">R$ 930,67</p>
+                <p class="preco">R$ 698,00</p>
+                <div class="div-card-flex">
+                    <div class="modal">
+                        <p>Modalidade</p>
+                        <p>Período</p>
+                        <p>Duração</p>
+                        <p>Carga Horária</p>
+                    </div>
+                    <div class="modal">
+                        <p>Presencial</p>
+                        <p>Noturno</p>
+                        <p>2,5 anos</p>
+                        <p>2000h</p>
+                    </div>
                 </div>
-              </div>
-              <div class="l-email">
-                <label for="email">Email *</label>
-                <input type="email" name="email" id="email" />
-              </div>
-              <div class="text-area">
-                <label for="textarea">Message</label>
-                <textarea name="textarea" id="textarea"></textarea>
-              </div>
             </div>
-            <div>
-              <button class="bnt-footer">Submit</button>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
+    
+    <div class="margin-invisivel"></div>
+
+    <section>
+        <div class="margin-valor">
+            <div class="margin-interna">
+                <div>
+                    <h1 class="titulo-valor">Valores do Salário</h1>
+                </div>
+                <div class="conteudo-principal">
+                    <div>
+                        <button class="button-valor bnt-ativo">Desevolvimento de Software</button>
+                        <button class="button-valor">Análise de Sistema</button>
+                        <button class="button-valor">Desenvolvimento Web e Mobile</button>
+                        <button class="button-valor">Gerenciamento de Projeto de TI</button>
+                    </div>
+                </div>
+                <div class="aba-conteudo-valor">
+                    <div class="conteudo-valor aba-ativa">
+                        <h5>Faixa de sálario base</h5>
+                        <h1>R$ 3 mil - R$ 8 mil<span> /mês</span></h1>
+                        <h3>Média salarial</h3>
+                        <p>R$ 5.362,72</p>
+                    </div>
+                    <div class="conteudo-valor">
+                        <h5>Faixa de sálario base</h5>
+                        <h1>R$ 4 mil - R$ 8 mil<span> /mês</span></h1>
+                        <h3>Média salarial</h3>
+                        <p>R$ 5.116,00</p>
+                    </div>
+                    <div class="conteudo-valor">
+                        <h5>Faixa de sálario base</h5>
+                        <h1>R$ 2 mil - R$ 5 mil<span> /mês</span></h1>
+                        <h3>Média salarial</h3>
+                        <p>R$ 3.285,00</p>
+                    </div>
+                    <div class="conteudo-valor">
+                        <h5>Faixa de sálario base</h5>
+                        <h1>R$ 3 mil - R$ 9 mil<span> /mês</span></h1>
+                        <h3>Média salarial</h3>
+                        <p>R$ 35.720,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="borda-horizontal"></div>
+
+    <footer>
+        <div class="margin-footer">
+            <div class="div-flex-colunm">
+                <h1 class="logo-footer"><i>ADS Site</i></h1>
+                <p class="local-footer">500 Terry Francine Street<br>San Francisco, CA 94158</p>
+                <a href="#" class="gmail">info@mysite.com</a>
+                <p class="tel">123-456-7890</p>
+                <div class="borda-pequena"></div>
+                <a href="#" class="link-footer">Terms & Conditions</a>
+                <a href="#" class="link-footer">Privacy Policy</a>
+                <a href="#" class="link-footer">Refund Policy</a>
+            </div>
+            <div class="div-flex-colunm">
+                <h1 class="logo-footer">Menu</h1>
+                <nav>
+                    <ul class="list-footer">
+                        <li class="link-list-footer"><a href="#" class="link-footer">Início</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Sobre o Curso</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Áreas de Atuação</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Locais do Curso</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Salários e Preços</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="div-flex-colunm">
+                <h1 class="logo-footer">Social</h1>
+                <nav>
+                    <ul class="list-footer">
+                        <li class="link-list-footer"><a href="#" class="link-footer">Instagram</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Facebook</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Linkedin</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Git Hub</a></li>
+                        <li class="link-list-footer"><a href="#" class="link-footer">Twitter</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="borda-vertical"></div>
+            <div class="div-flex-colunm">
+                <div style="width: 370px;">
+                    <h1 class="logo-footer">Entre em Contato</h1>
+                    <div class="div-flex-name">
+                        <div class="div-colunm"">
+                            <label for="name-first">Primeiro Nome *</label>
+                            <input type="text" name="name-first" id="first">
+                        </div>
+                        <div class="div-colunm">
+                            <label for="name-last">Sobrenome *</label>
+                            <input type="text" name="name-last" id="last" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="div-email">
+                        <label for="gmail">Sobrenome *</label>
+                        <input type="email" name="gmail" id="email">
+                    </div>
+                    <div class="div-texta">
+                        <label for="texto-area">Mensagem</label>
+                        <textarea name="texto-area" id="textarea"></textarea>
+                    </div>
+                    <button class="button-contato">Enviar</button>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <div class="borda-horizontal"></div>
+
+
     <script src="./src/js/script.js"></script>
-  </body>
+</body>
 </html>

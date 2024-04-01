@@ -1,29 +1,31 @@
-const bntAs6 = document.querySelectorAll('.bnt-s6');
-const conteudo = document.querySelectorAll('.aba-cont-graf-s6');
+const bntValor = document.querySelectorAll('.button-valor');
+const contValor = document.querySelectorAll('.conteudo-valor')
 
-for(let i=0;i < bntAs6.length; i++) {
-    bntAs6[i].onclick = function(){
+for(let i=0; i < bntValor.length; i++) {
+    bntValor[i].onclick = function(){
 
-        for(let j=0; j < bntAs6.length; j++){
-            bntAs6[j].classList.remove("ativo");
-            conteudo[j].classList.remove("ativo-cont");
+        for(let j=0; j < bntValor.length; j++){
+            bntValor[j].classList.remove("bnt-ativo");
+            contValor[j].classList.remove("aba-ativa");
         }
 
-        bntAs6[i].classList.add("ativo");
-        conteudo[i].classList.add("ativo-cont");
+        bntValor[i].classList.add("bnt-ativo");
+        contValor[i].classList.add("aba-ativa");
     }
 }
 
-const bntAs4 = document.querySelectorAll('.h2-t1-s4');
-const contS4 = document.querySelectorAll('.p1-s4');
 
-for(let i=0;i < bntAs4.length; i++) {
-    bntAs4[i].onclick = function(){
+const bntTitulo = document.querySelectorAll('.sub-titulo-area');
+const contTitulo = document.querySelectorAll('.paragrafo-area');
+const imgTitulo = document.querySelectorAll('.img-cont-area');
 
-        for(let j=0; j < bntAs4.length; j++){
-            contS4[j].classList.add("sumir");
+for(let i=0;i < bntTitulo.length; i++) {
+    bntTitulo[i].onclick = function(){
+
+        for(let j=0; j < bntTitulo.length; j++){
+            contTitulo[j].classList.add("p-sumir");
         }
 
-        contS4[i].classList.remove("sumir");
+        contTitulo[i].classList.remove("p-sumir");
     }
 }

@@ -1,0 +1,276 @@
+/* 1º Section */
+.div-section-titulo {
+    margin: 0 30px;
+    display: block;
+}
+
+.titulo-principal {
+    font-size: 68px;
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.sub-titulo-principal {
+    font-size: 16px;
+    font-family: var(--font-sub-titulo);
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.link-titulo-principal {
+    font-size: 16px;
+    font-family: var(--font-text);
+    color: var(--cor-principal);
+    text-decoration: none;
+    margin: 40px 0 20px 40px;
+    background: var(--background-bnt);
+    padding: 5px 50px;
+    border: 1px solid var(--cor-principal);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.link-titulo-principal:hover {
+    background: var(--background);
+    transition: all .2s ease;
+}
+
+/* Parallax */
+
+.div-parallax {
+    margin: 0 30px;
+}
+
+.parallax {
+    background: url(https://assets-global.website-files.com/64f20947a349863d843d119b/6554fababf7e1c58b740baa9_fiches-metier-it.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+/* 2º Section */
+
+.div-flex-ads {
+    display: flex;
+    height: 800px;
+    margin: 0 30px;
+}
+
+.img-ads {
+    background: url(https://www.spurtcommerce.com/img/index-img/coding-on-laptop@3x.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
+    width: 700px;
+}
+
+.conteudo-ads {
+    width: 600px;
+}
+
+
+.titulo-principal-ads {
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    font-weight: 500;
+    margin: 4.5em 0 0 40px;
+}
+
+.text-principal-ads {
+    font-size: 14px;
+    font-family: var(--font-text);
+    margin: 20px 40px 10px 40px;
+    text-align: justify;
+}
+
+/* 3º Section */
+
+.div-flex-area {
+    justify-content: space-around;
+    display: flex;
+    margin: 0 30px;
+}
+
+.conteudo-area {
+    width: 700px;
+    margin: 0 30px;
+}
+
+.titulo-area {
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    font-weight: 500;
+}
+
+.conteudo-especifico-area {
+    margin-top: 10em;
+}
+
+.cont-web{
+    max-width: 400px;
+    text-align: justify;
+    border-top: 1px solid var(--cor-principal);
+}
+
+.sub-titulo-area {
+    margin: 25px 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: var(--font-sub-titulo);
+}
+
+.paragrafo-area {
+    font-size: 14px;
+    font-family: var(--font-text);
+    display: block;
+    padding-bottom: 10px;
+}
+.paragrafo-area p {
+    margin-bottom: 10px;
+}
+.p-sumir {
+    display: none;
+}
+.img-ads-area {
+    background: url(https://external-preview.redd.it/-aYQ7O5w_rtZ8XaF2ek1K97rTDiPuwYc72wLz-etqc4.jpg?auto=webp&s=ded4f210dd6cb8b7e8742dec3e4830c6ba0d1a43) no-repeat center;
+    background-size: cover;
+    height: 900px;
+    width: 700px;
+}
+/*
+.img-cont-area {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+.img-sumir {
+    display: none;
+}
+*/
+
+/* 4º Section */
+
+.titulo-faculdade {
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.div-locais {
+    display: flex;
+    margin: 0 30px;
+    height: 380px;
+    justify-content: center;
+}
+
+.card-facul {
+    width: 400px;
+    text-align: start;
+    margin-left: 3em;
+    font-family: var(--font-text);
+}
+
+.img-facul {
+    width: 160px;
+    height: 80px;
+}
+
+.preco-d {
+    margin-top: 10px;
+    color: var(--cor-principal);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.preco {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.modal {
+    margin-right: 50px;
+}
+.modal p {
+    padding-bottom: 10px;
+}
+
+.div-card-flex {
+    display: flex;
+}
+
+/* 5º Section */
+
+.margin-valor {
+    margin: 0 30px;
+    background: #eeeeee;
+}
+.margin-interna {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.titulo-valor {
+    font-size: 32px;
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.button-valor {
+    font-size: 14px;
+    font-family: var(--font-text);
+    background: transparent;
+    border: none;
+    border-right: 1px solid var(--cor-principal);
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 8px 20px 8px 0;
+    cursor: pointer;
+}
+.button-valor:hover {
+    border-right: 2px solid var(--cor-principal);
+}
+.bnt-ativo {
+    border-bottom: 2px solid var(--cor-principal);
+    border-right: 2px solid var(--cor-principal);
+}
+
+.conteudo-valor.aba-ativa {
+    display: block;
+}
+.conteudo-valor {
+    display: none;
+    text-align: start;
+    margin-left: 13em;
+    margin-top: 2em;
+}
+.conteudo-valor h5 {
+    font-size: 14px;
+    font-family: var(--font-text);
+    border-bottom: 1px dotted var(--cor-principal);
+    display: inline;
+}
+.conteudo-valor h1 {
+    font-size: 32px;
+    font-family: var(--font-text);
+    font-weight: 400;
+    margin: 8px 0 20px 0;
+}
+.conteudo-valor h1 span {
+    font-size: 14px;
+}
+.conteudo-valor h3 {
+    font-size: 14px;
+    font-family: var(--font-text);
+    margin-bottom: 5px;
+}
+.conteudo-valor p {
+    font-size: 32px;
+    font-family: var(--font-text);
+    font-weight: 400;
+}
+
+
